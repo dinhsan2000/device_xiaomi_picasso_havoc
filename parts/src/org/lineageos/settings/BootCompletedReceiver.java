@@ -22,6 +22,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import org.lineageos.settings.thermal.ThermalUtils;
+import org.lineageos.settings.utils.RefreshRateUtils;
 import org.lineageos.settings.dirac.DiracUtils;
 import vendor.xiaomi.hardware.touchfeature.V1_0.ITouchFeature;
 
@@ -42,6 +43,8 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         } catch (Exception e) {
             // Do nothing
         }
+        // Refresh rate
+        RefreshRateUtils.setFPS(RefreshRateUtils.getRefreshRate(context));
 
         DiracUtils.initialize(context);
     }

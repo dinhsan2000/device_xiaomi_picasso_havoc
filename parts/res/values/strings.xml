@@ -21,6 +21,14 @@
     <string name="thermal_dialer">Dialer</string>
     <string name="thermal_gaming">Gaming</string>
 
+    <!-- Refresh Rates -->
+    <string name="fps_title">Refresh rate per app</string>
+    <string name="fps_summary">Add a custom refresh rate for individual apps</string>
+    <string name="fps_120">120 hz</string>
+    <string name="fps_90">90 hz</string>
+    <string name="fps_60">60 hz</string>
+    <string name="fps_30">30 hz</string>
+
     <!-- Touch Control Settings -->
     <string name="touch_control_title">Touch Control</string>
     <string name="touch_game_mode_title">Enable game mode</string>

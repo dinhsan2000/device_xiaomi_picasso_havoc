@@ -12,19 +12,25 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/picasso/device.mk)
 
 # Inherit some common Arrow stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+
+#GAPPS
+CHERISH_WITHGAPPS=true
+
+#Official
+CHERISH_BUILD_TYPE:=OFFICIAL
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.cherish.maintainer=DinhSan
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := arrow_picasso
+PRODUCT_NAME := cherish_picasso
 PRODUCT_DEVICE := picasso
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi K30 5G
 PRODUCT_MANUFACTURER := Xiaomi
 
-TARGET_BOOT_ANIMATION_RES := 1080
-
 PRODUCT_CHARACTERISTICS := nosdcard
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-DEVICE_MAINTAINER := hiper25
