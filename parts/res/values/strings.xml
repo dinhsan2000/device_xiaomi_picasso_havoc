@@ -11,50 +11,29 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
-    <!-- Thermal Profiles -->
-    <string name="thermal_title">Thermal Profiles and Game Mode</string>
-    <string name="thermal_summary">Adjust per-app thermal and touchscreen profiles for optimum performance</string>
-    <string name="thermal_default">Default</string>
-    <string name="thermal_benchmark">Benchmark</string>
-    <string name="thermal_camera">Camera</string>
-    <string name="thermal_dialer">Dialer</string>
-    <string name="thermal_gaming">Gaming</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_specific_settings_title">XiaomiParts</string>
+    <string name="device_specific_settings_summary">Specific settings for Redmi K30 5G.</string>
+    <string name="device_refresh_rate">DISPLAY REFRESH RATE</string>
+    <string name="device_cutout">NOTCH/CUTOUT</string>
+    <string name="device_min_refresh_rate">Refresh Rate</string>
+    <string name="device_power_save_refresh_rate">Battery saver refresh rate</string>
+    <string name="device_power_save_refresh_rate_switch">Automatically lower refresh rate when battery saver is enabled.</string>
+    <string name="device_pill_style_notch">Black-hole notch</string>
+    <string name="msg_device_need_restart">Please, restart systemUI for this to take effect.</string>
 
-    <!-- Refresh Rates -->
-    <string name="fps_title">Refresh rate per app</string>
-    <string name="fps_summary">Add a custom refresh rate for individual apps</string>
-    <string name="fps_120">120 hz</string>
-    <string name="fps_90">90 hz</string>
-    <string name="fps_60">60 hz</string>
-    <string name="fps_30">30 hz</string>
-
-    <!-- Touch Control Settings -->
-    <string name="touch_control_title">Touch Control</string>
-    <string name="touch_game_mode_title">Enable game mode</string>
-    <string name="touch_game_mode_summary">Activate manual touchscreen feature controls for a better gaming experience</string>
-    <string name="touch_response_title">Touch response</string>
-    <string name="touch_response_summary">Control touch response</string>
-    <string name="touch_sensitivity_title">Touch sensitivity</string>
-    <string name="touch_sensitivity_summary">Control touch sensitivity for repeated taps</string>
-    <string name="touch_resistant_title">Touch-resistant area</string>
-    <string name="touch_resistant_summary">Reduce touch sensitivity near the edges to avoid triggering touch controls</string>
-
-    <!--  DT2W    -->
-    <string name="dt2w_enable_title">Double-Tap to Wake </string>
-    <string name="dt2w_enable_summary">Display boot in screen-off state by a double-tap</string>
+    <!-- DT2W -->
+    <string name="dt2w_enable_title">Double-tap to wake </string>
+    <string name="dt2w_enable_summary">Double-tap on lockscreen to wake device</string>
 
     <!-- Dirac settings -->
     <string name="dirac_title">Mi Sound Enhancer</string>
     <string name="dirac_summary">Optimize audio quality</string>
-    <string name="dirac_headset_title">Choose headphones type</string>
-    <string name="dirac_hifi_enable_title">Enable Hi-fi</string>
-    <string name="dirac_preset_title">Choose a preset</string>
-
+    <string name="dirac_headset_title">Headset type</string>
+    <string name="dirac_hifi_enable_title"> Enable Hi-fi</string>
+    <string name="dirac_preset_title">Sound preset</string>
     <string name="dirac_hifi_title">Hi-Fi</string>
     <string name="dirac_hifi_summary">Decrease noise and Distortion and increase audio quality</string>
-
-    <!-- Dirac settings: Headset types -->
     <string name="dirac_headset_default">Default</string>
     <string name="dirac_headset_earbuds">Mi Earbuds</string>
     <string name="dirac_headset_in_ear_2013">Mi In-Ear (2013)</string>
@@ -77,8 +56,6 @@
     <string name="dirac_headset_in_ear2">Mi In-Ear 2</string>
     <string name="dirac_headset_earphone_basic">Mi Earphones Basic</string>
     <string name="dirac_headset_earphone">Mi Earphones</string>
-
-    <!-- Dirac settings: Equalizer presets -->
     <string name="dirac_preset_default">Default</string>
     <string name="dirac_preset_rock">Rock</string>
     <string name="dirac_preset_jazz">Jazz</string>
@@ -91,7 +68,26 @@
     <string name="dirac_preset_dance">Dance</string>
     <string name="dirac_preset_metal">Metal</string>
 
-     <!-- QS tile title -->
-    <string name="dirac_qs_tile_title">Sound Enhancer</string>
+    <!-- Thermal Profiles -->
+    <string name="thermal_title">Thermal Profiles</string>
+    <string name="thermal_summary">Adjust per-app thermal profiles for optimum performance.</string>
+    <string name="thermal_default">Default</string>
+    <string name="thermal_benchmark">Benchmark</string>
+    <string name="thermal_browser">Browser</string>
+    <string name="thermal_camera">Camera</string>
+    <string name="thermal_dialer">Dialer</string>
+    <string name="thermal_gaming">Gaming</string>
+    <string name="thermal_youtube">YouTube</string>
+    <string name="thermal_streaming">Streaming</string>
 
+    <!-- Refresh Rates -->
+    <string name="fps_title">Refresh rate per app</string>
+    <string name="fps_summary">Add a custom refresh rate for individual apps</string>
+    <string name="fps_120">120 hz</string>
+    <string name="fps_90">90 hz</string>
+    <string name="fps_60">60 hz</string>
+    <string name="fps_30">30 hz</string>
+
+     <!-- Dirac QS tile -->
+    <string name="dirac_qs_tile_title">Mi Sound Enhancer</string>
 </resources>
